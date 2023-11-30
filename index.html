@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>育碧索芙特维尔</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="games.html">游戏</a></li>
+        <li><a href="community.html">社区</a></li>
+        <li><a href="about.html">关于</a></li>
+        <li><a href="login.html">登录</a></li>
+        <li><a href="register.html">注册</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="background-image">
+	
+</div>
+  <div class="slideshow">
+  <img class="slide active" src="img/image1.jpg" alt="Image 1">
+  <img class="slide" src="img/image2.jpg" alt="Image 2">
+  <img class="slide" src="img/image3.jpg" alt="Image 3">
+</div>
+
+<script>
+var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide, 3000);
+
+function nextSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+</script>
+
+  <div class="content">
+    <h1>热门新闻</h1>
+    <div class="game-list">
+      <div class="game">
+        <img src="game1.jpg" alt="Game 1">
+        <h2>育碧确认参展CCG EXPO 风华长安 数款新游现场试玩</h2>
+        <p>西安·中国国际动漫游戏博览会·风华长安（以下简称：CCG EXPO 风华长安）将于10月27日—10月30日在西安曲江竞技中心举行。今天，育碧中国也宣布将正式参加本次展会，并将为广大中国玩家带来包括《刺客信条：幻景》、《飙酷车神：轰鸣盛典》等全新作品的现场试玩，更有即将推出的《波斯王子：失落的王冠》的首度独家体验。</p>
+        <a href="https://zh-cn.ubisoft.com/news2/show/2745">了解更多</a>
+      </div>
+      <div class="game">
+        <img src="game2.jpg" alt="Game 2">
+        <h2>灵异万圣节 探秘育碧怪谈收容档案</h2>
+        <p>万圣节将至，多款育碧游戏中的灵异怪谈也在悄然蔓延：偷食贡品而被邪物缠身的武者，前往阴森古堡执行任务却频频失联的干员……这些坊间怪谈仿佛正在逐步失控！为了防止事态升级并将这些“怪谈”背后的“东西”妥善收容，我们将从即日起创建“育碧怪谈收容档案”，邀请广大玩家作为研究员提供更多资料，帮助完成收容。
+
+</p>
+        <a href="https://zh-cn.ubisoft.com/news2/show/2746">了解更多</a>
+      </div>
+      <div class="game">
+        <img src="game3.jpg" alt="Game 3">
+        <h2>挖掘自然 「育」见好玩 育碧携手卡乐比举办土豆种植挑战赛</h2>
+        <p>育碧中国正式宣布与日本知名休闲食品品牌Calbee卡乐比合作，开展土豆种植挑战赛活动。育碧旗下备受全球喜爱的疯狂兔子将携手Calbee卡乐比品牌IP家族成员：土豆君（Potta），一同发起挑战，邀请土豆种植官一同享受种植的乐趣，感受自然的力量！</p>
+        <a href="https://www.ubisoft.com.cn/news_detail.html?id=88">了解更多</a>
+      </div>
+    </div>
+  </div>
+
+	<div class="community">
+	    <h1>社区</h1>
+	    <div class="community-posts">
+	      <div class="post">
+	        <h2>The Crew Motorfest Mid-Season – Patch Notes</h2>
+	        <p>We hear you loud and clear Festival-goers! We're making a swath of fixes across Motorfest to improve your festival experience!  Find out more about all the fixes and improvements coming to Motorfest with this Mid-Season Patch.</p>
+	        <p>作者：The Crew®</p>
+	      </div>
+	      <div class="post">
+	        <h2>Immerse yourself in the world of Anno 1800 with its music!！</h2>
+	        <p>Anno 1800 is full of music that allows you to immerse yourself in its universe, its empires, and the general atmosphere of the Industrial Age.</p>
+	        <p>作者：Anno 1800</p>
+	      </div>
+	      <div class="post">
+	        <h2>Assassin’s Creed Mirage – Accessibility Spotlight</h2>
+	        <p>Assassin’s Creed Mirage launches on October 5, when players will be able to dive into the adventure of Basim Ibn Is’haq, a young street thief who grows into a Master Assassin, and explore the vibrant city of Baghdad circa the ninth century. Assassin’s Creed Mirage is intended to evoke the feel of early games in the series, with an emphasis on stealth and the return of many familiar gameplay and thematic elements – but it’s firmly modern in its approach to accessibility, with a number of features to ensure that as many people can play as possible/p>
+	        <p>作者：Assassin’s Creed Mirage</p>
+	      </div>
+	    </div>
+	  </div>
+  <footer>
+    <p>© 2050 Ubisoft. All rights reserved.</p>
+  </footer>
+</body>
+</html>
